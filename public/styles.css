@@ -1,0 +1,589 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+/* Tags */
+/* Scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fa2103;
+}
+
+body {
+  background-color: black;
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+hr {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+/* ================== */
+
+.col-lg-6 {
+  padding: 0;
+  margin: 0;
+}
+
+/* Component Styles */
+
+.faqsec {
+  position: relative;
+}
+
+.section5 {
+  position: relative;
+}
+
+.section3 {
+  position: relative;
+}
+
+.section4 {
+  position: relative;
+}
+
+.section2 {
+  position: relative;
+}
+
+/* Heading Component */
+
+.firstHeading {
+  margin-bottom: 10px;
+  padding-top: 5%;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1;
+  width: 550px;
+}
+
+.secondHeading {
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+}
+
+.thirdHeading {
+  font-size: 1.3rem;
+}
+
+.faq-head {
+  margin-top: 60px;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.btmHeading {
+  width: 70%;
+  margin-top: 40px;
+  font-size: 1.3rem;
+}
+
+/* ============== */
+
+/* Input Component */
+
+.startBtn {
+  padding: 0.8rem 1rem;
+  font-size: 1.25rem;
+  border: none;
+  background-color: #d40000;
+  color: white;
+}
+
+.input {
+  position: relative;
+  padding-left: 10px;
+  width: 500px;
+  height: 55px;
+  border-radius: none;
+  border: none;
+}
+
+.hidden-message {
+  margin: 5px 0 0 10px;
+  color: #ffa00a;
+  text-align: left;
+}
+
+.faqsec {
+  position: relative;
+}
+/* 
+.input-item {
+  width: 100%;
+  text-align: center;
+} */
+
+/* -===-------===- */
+
+/* Main-page ----- Section 1 */
+
+/* =================== */
+
+.my-Cont {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./Background.jpg");
+}
+
+.netflix-logo {
+  margin-top: 35px;
+  margin-left: 45px;
+  width: 130px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  margin-top: 5%;
+}
+
+.signInBtn {
+  margin-top: 35px;
+  margin-right: 45px;
+  border: 0;
+  color: white;
+  border-radius: 2px;
+  font-weight: 500;
+  width: 80px;
+  height: 37px;
+  background-color: #d40000;
+}
+
+/* --------------------------- */
+
+/* ------------------- */
+
+/* Section 2 text with image*/
+
+.textInGrid {
+  color: white;
+  margin: 18% 0 0 17%;
+}
+
+.row {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.size-lg {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.size-md {
+  font-size: 1.5rem;
+}
+
+.netflix-tv {
+  width: 85%;
+}
+
+.textInRight {
+  justify-content: left;
+  color: white;
+  margin: 25% 0 0 0;
+}
+
+.textInRight1 {
+  justify-content: left;
+  color: white;
+  margin: 15% 0 0 0;
+}
+
+.headingPara1 {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.netflix-kids {
+  margin-top: 50px;
+  width: 75%;
+}
+
+.headingRight {
+  line-height: 1;
+  text-align: left;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.headingRight1 {
+  line-height: 1;
+  text-align: left;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.headingPara {
+  text-align: left;
+  font-size: 1.7rem;
+}
+
+.netflix-mob {
+  width: 75%;
+}
+
+.netflix-all {
+  margin-top: 60px;
+  width: 75%;
+}
+/* --------------------------- */
+
+/* FAQsec Component */
+
+.collapse-btn {
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 70px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.text {
+  font-weight: 500;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.plus-icon {
+  transform: none;
+  transition: 0.5s;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+
+.collapse-msg {
+  text-align: left;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #333333;
+  width: 70%;
+}
+
+.collapse {
+  margin-bottom: 20px;
+  transition: ease-in 0.2s;
+}
+
+/* ----------------- */
+
+/* Breakpoints */
+
+@media only screen and (max-width: 1024px) {
+  .size-lg {
+    font-size: 3.2rem;
+  }
+
+  .headingRight,
+  .headingRight1 {
+    font-size: 3.2rem;
+  }
+
+  .size-md,
+  .headingPara,
+  .headingPara1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .textInGrid {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .headingRight,
+  .headingRight1 {
+    width: 700px;
+    margin-left: 35px;
+    font-size: 56px;
+    text-align: center;
+  }
+
+  .headingRight1 {
+    margin-left: 0px;
+  }
+
+  .headingPara,
+  .headingPara1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .faqsec {
+    position: relative;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 440px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main {
+    width: 100vw;
+  }
+
+  .my-Cont {
+    height: 100vh;
+  }
+
+  .netflix-logo {
+    margin-left: 20px;
+    width: 95px;
+  }
+
+  .signInBtn {
+    margin-right: 20px;
+    width: 62px;
+    height: 28px;
+  }
+
+  .heading {
+    margin-top: 13%;
+  }
+
+  .firstHeading {
+    font-size: 1.75rem;
+    width: 352px;
+  }
+
+  .secondHeading {
+    font-size: 1.125rem;
+    margin-bottom: 0;
+  }
+
+  .thirdHeading {
+    margin-top: 10px;
+    font-size: 1.125rem;
+    width: 330px;
+  }
+
+  .input-item {
+    position: relative;
+    height: 130px;
+    width: 100%;
+  }
+
+  .input {
+    width: 329px;
+    height: 43px;
+  }
+
+  .startBtn {
+    margin: 20px;
+    height: 45px;
+    font-size: inherit;
+  }
+
+  /* Section 2 { */
+  .textInGrid {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .size-lg {
+    text-align: center;
+    font-size: 1.625rem;
+  }
+
+  .faq-head {
+    padding: 0 30px 0 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 1.625rem;
+  }
+
+  .headingRight {
+    width: 300px;
+    margin-left: 28px;
+    text-align: center;
+    font-size: 1.625rem;
+  }
+
+  .headingRight1 {
+    width: 288px;
+    text-align: center;
+    margin-left: 0;
+    font-size: 1.625rem;
+  }
+
+  .size-md,
+  .headingPara,
+  .headingPara1 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .size-md {
+    width: 288px;
+    margin-left: 54px;
+  }
+
+  .collapse-btn {
+    width: 100%;
+    height: 51px;
+  }
+
+  .text {
+    margin-top: 12px;
+    font-size: 1.125rem;
+  }
+
+  .plus-icon {
+    margin-top: 13px;
+  }
+
+  .collapse-msg {
+    width: 100%;
+    font-size: 1.125rem;
+  }
+
+  .btmHeading {
+    width: 300px;
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .headingRight {
+    margin-left: 73px;
+  }
+
+  .size-md {
+    text-align: center;
+    margin-left: 84px;
+  }
+
+  .input-item {
+    position: relative;
+  }
+
+  .hidden-message {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    font-size: 14px;
+  }
+
+  .startBtn {
+    margin-top: 26px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .headingRight {
+    margin-left: 50px;
+  }
+
+  .size-md {
+    margin-left: 58px;
+  }
+
+  .hidden-message {
+    left: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .firstHeading {
+    width: 300px;
+  }
+
+  .thirdHeading {
+    width: 300px;
+  }
+
+  .size-lg {
+    width: 288px;
+    font-size: 1.625rem;
+    margin-left: 30px;
+  }
+
+  .size-md {
+    width: 288px;
+    margin-left: 30px;
+    font-size: 1rem;
+  }
+
+  .headingRight,
+  .headingRight1 {
+    width: 288px;
+  }
+
+  .headingRight1 {
+    margin-left: 0px;
+  }
+
+  .headingRight {
+    margin-left: 30px;
+  }
+
+  .input {
+    width: 270px;
+  }
+
+  .headingPara,
+  .headingPara1 {
+    font-size: 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .example {background: green;}
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .example {background: blue;}
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .example {background: orange;}
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+} */
